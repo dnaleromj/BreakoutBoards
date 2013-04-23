@@ -1,0 +1,43 @@
+[Eagle]
+Version="06 04 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/3DRobotics_Master_Library.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/jst-zh-dl.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/frames.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Boards.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Capacitors.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Connectors.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Displays.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-LED.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Passives.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-PowerIC.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Resistors.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-RF.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Sensors.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/Connector.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/IC.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/Power or GND .lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/discretejcm.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="176 155 1157 769"
+State=2
+Number=0
+
+[Desktop]
+Screen="1680 1050"
+Window="Win_1"

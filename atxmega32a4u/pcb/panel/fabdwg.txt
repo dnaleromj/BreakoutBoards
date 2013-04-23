@@ -1,0 +1,5 @@
+* FR4 Material
+* All holes plated through
+* Drills shown as finished sizes
+* Board thickness 1.6mm
+* Use p-xmega32A4U.panel_outline.ger as board outline.
