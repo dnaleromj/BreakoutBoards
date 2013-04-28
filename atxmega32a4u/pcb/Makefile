@@ -95,31 +95,33 @@ dirs :
 	ps2pdf $< $@
 
 %.schematics.ps : ../%.sch
-	$(EAGLE_EXE) -X -N -d PS -s.63 -r -o $@ $< Nets Busses Symbols Names Values
+	$(EAGLE_EXE) -X -N -d PS -s1 -r -o $@ $< Nets Busses Symbols Names Values
 
 %.top_layer.ps : ../%.brd
 	$(EAGLE_EXE) -X -N -f- -m+ -d PS -h6 -w10 -o $@ $< Top Pad Via Dimension
 
 %.top_layer_scaled.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -m+ -d PS -s2.5 -o $@ $< Top Pad Via Dimension
+	$(EAGLE_EXE) -r- -X -N -f- -d PS -s4.5 -o $@ $< Top Pad Via Dimension
 
 %.top_comp.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -d PS -h6 -w10 -o $@ $< Pad Via Dimension tPlace tNames tDocu
+	#$(EAGLE_EXE) -X -N -f- -d PS -h6 -w10 -o $@ $< Pad Via Dimension tPlace tNames tDocu
+	$(EAGLE_EXE) -X -N -f- -d PS -o $@ $< Pad Via Dimension tPlace tNames
 
 %.top_comp_scaled.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -d PS -s2.5 -o $@ $< Pad Via Dimension tPlace tNames tDocu
+	#$(EAGLE_EXE)    -X -N -f- -d PS -s2.5 -o $@ $< Pad Via Dimension tPlace tNames tDocu
+	$(EAGLE_EXE) -r- -X -N -f- -d PS -s4.5 -o $@ $< Pad Via Dimension tPlace tNames #tDocu
 
 %.bottom_layer.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -d PS -h6 -w10 -o $@ $< Bottom Pad Via Dimension
+	$(EAGLE_EXE) -X -N -f- -m+ -d PS -h6 -w10 -o $@ $< Bottom Pad Via Dimension
 
 %.bottom_layer_scaled.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -d PS -s2.5 -o $@ $< Bottom Pad Via Dimension
+	$(EAGLE_EXE) -r- -X -N -f- -m+ -x.25 -d PS -s4.5 -o $@ $< Bottom Pad Via Dimension
 
 %.bottom_comp.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -m+ -c -d PS -h6 -w10 -o $@ $< Pad Via Dimension bPlace bNames bDocu
+	$(EAGLE_EXE) -X -N -f- -m+ -c -d PS -o $@ $< Pad Via Dimension bPlace bNames bDocu
 
 %.bottom_comp_scaled.ps : ../%.brd
-	$(EAGLE_EXE) -X -N -f- -m+ -c -d PS -s2.5 -o $@ $< Pad Via Dimension bPlace bNames bDocu
+	$(EAGLE_EXE) -r- -X -N -f- -m+ -x.25 -c -d PS -s4.5 -o $@ $< Pad Via Dimension bPlace bNames bDocu
 
 
 clean:
