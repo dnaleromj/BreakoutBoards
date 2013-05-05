@@ -4291,7 +4291,7 @@ LETTER landscape</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="DATABASE" value="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/bom/PARTSDB.TXT"/>
+<attribute name="DATABASE" value="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/bom/PARTS.TXT"/>
 <attribute name="DRAWN" value="Joseph Moreland"/>
 </attributes>
 <variantdefs>
@@ -4325,7 +4325,7 @@ LETTER landscape</description>
 <attribute name="PARTNO" value="MIC5219-3.3YM5 TR"/>
 </part>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k">
-<attribute name="PARTNO" value="RC0603FR-071KL"/>
+<attribute name="PARTNO" value="RC0603FR-07330RL"/>
 </part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4373,7 +4373,7 @@ LETTER landscape</description>
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k">
-<attribute name="PARTNO" value="RC0603FR-071KL"/>
+<attribute name="PARTNO" value="RC0603FR-07330RL"/>
 </part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="POK" library="SparkFun-LED" deviceset="LED" device="0603" value="Green">
