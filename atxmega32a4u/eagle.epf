@@ -7,7 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-Connectors.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/3DRobotics_Master_Library.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/jst-zh-dl.lbr"
 UsedLibrary="/Applications/EAGLE-6.4.0/lbr/frames.lbr"
@@ -34,7 +34,7 @@ UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/discrete
 
 [Win_1]
 Type="Control Panel"
-Loc="176 155 1157 769"
+Loc="142 147 741 546"
 State=2
 Number=0
 

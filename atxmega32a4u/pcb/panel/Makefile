@@ -15,4 +15,4 @@ _view:
 
 
 clean:
-	rm -f merged.* *~
+	rm -f p-x* *~

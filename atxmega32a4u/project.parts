@@ -1,0 +1,32 @@
+Partlist
+
+Exported from xmega32A4U.brd at 5/5/13 5:15 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                Library             Position (mil)        Orientation
+
+C1       1uF            C0603                  rcl                 (1574 540)            R0
+C2       10uF           EIA3216                SparkFun-Passives   (1564.12598 387.65354) R270
+C3       470pF          C0603                  rcl                 (1294.12598 387.65354) R90
+C4       0.1uF          C0402                  rcl                 (556 293)             R90
+C5       0.1uF          0402-CAP               SparkFun-Passives   (1142.31496 402.11811) R270
+C6       0.1uF          0402-CAP               SparkFun-Passives   (924.15748 593.74803) R0
+C7       0.1uF          0402-CAP               SparkFun-Passives   (1088 178)            R0
+C8       4.7nF          0402-CAP               SparkFun-Capacitors (1660 486)            R0
+ESD1     CG0603MLC-05E  0603-CHIPGUARD         JCM                 (1448 190)            R90
+ESD2     CG0603MLC-05E  0603-CHIPGUARD         JCM                 (1228 302)            R270
+JP1      M20            1X20                   SparkFun-Connectors (100 700)             R0
+L1       220 Ohm        0603                   wuerth-elektronik   (1918 145)            R180
+POK      Green          LED-0603               SparkFun-LED        (125 485)             R0
+R1       1k             R0603                  adafruit            (192 309)             R270
+R2       1M             0402-RES               SparkFun-Resistors  (1660 423)            R0
+R3       1k             R0603                  adafruit            (195 485)             R270
+STATUS   Blue           LED-0603               SparkFun-LED        (125 309)             R0
+U$1      XMEGA-A4UVQFN  QFN44                  JCM                 (900 375)             R0
+U$4      USB-MINIB      USB-MINI-B-UX60-MB-5S8 JCM-Connectors      (1776 392)            R90
+U$5      M18_           1X18                   SparkFun-Connectors (100 100)             R0
+U$7      AVR_PDI_PROG   AVR_50MIL_PROG         JCM                 (397 396)             R270
+U1                      SOT23-5                SparkFun-PowerIC    (1419.12598 387.65354) R180
