@@ -1,2 +1,2 @@
 cp ../gerbers/* .
-zip tinyRF-v0.1-Sunstone.zip  tinyRF.????
+#zip tinyRF-v0.1-Sunstone.zip  tinyRF.????

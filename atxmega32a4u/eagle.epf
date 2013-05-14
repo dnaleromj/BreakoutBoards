@@ -7,37 +7,77 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-Capacitors.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-Connectors.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/3DRobotics_Master_Library.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/jst-zh-dl.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-IC.lbr"
+UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-Resistors.lbr"
 UsedLibrary="/Applications/EAGLE-6.4.0/lbr/frames.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Aesthetics.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-AnalogIC.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Boards.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Capacitors.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Connectors.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-DigitalIC.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-DiscreteSemi.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Displays.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Electromechanical.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-FreqCtrl.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-LED.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Passives.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-PowerIC.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Resistors.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-RF.lbr"
-UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/SparkFun-master-25-05-2013/SparkFun-Sensors.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/Connector.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/IC.lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/Power or GND .lbr"
 UsedLibrary="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/lbr/Seedstudio/discretejcm.lbr"
 
 [Win_1]
+Loc="482 88 1617 638"
+State=2
+Number=2
+
+[Win_2]
+Type="Library Editor"
+Loc="420 293 2084 1237"
+State=1
+Number=1
+File="/Users/jmoreland/.dropbox-alt/Dropbox/eagle/JCM-Eagle/lbr/JCM-IC.lbr"
+View="-5.25901 -6.33457 4.10434 6.25083"
+WireWidths=" 0.0001 0.00011875 5e-05 0 0.0005 0.002 0.0025 0.01 0.012 0.005 0.001 0.05 0.1 0.2 0.25 0.127"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635 0.03 0.03 0 0.03 0.05 0.05 0.003 0.003 0 0.003 0.005 0.005 0.8 0.27 0.3 0.3 0 0.3 0.5 0.5 0.27 0.95 0.95 0.27"
+WireBend=2
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=21
+Package="QFN44-NOPAD"
+
+[Win_3]
 Type="Control Panel"
-Loc="142 147 741 546"
+Loc="251 26 1531 635"
 State=2
 Number=0
 
 [Desktop]
 Screen="1680 1050"
 Window="Win_1"
+Window="Win_2"
+Window="Win_3"
