@@ -14,7 +14,7 @@ BOTTOM_COMP=$(subst /,/printable/,$(BRD_SRCS:%.brd=%.bottom_comp.ps))
 BOTTOM_COMP_SCALED=$(subst /,/printable/,$(BRD_SRCS:%.brd=%.bottom_comp_scaled.ps))
 POSTSCRIPTS= $(SCHEMATICS) $(TOP_LAYER) $(TOP_COMP) $(BOTTOM_LAYER) $(BOTTOM_COMP) $(TOP_LAYER_SCALED) $(TOP_COMP_SCALED) $(BOTTOM_LAYER_SCALED) $(BOTTOM_COMP_SCALED)
 PDF=$(POSTSCRIPTS:%.ps=%.pdf)
-EAGLE_EXE=/Applications/EAGLE-6.4.0/EAGLE.app/Contents/MacOS/EAGLE
+EAGLE_EXE=/Applications/EAGLE-6.5.0/EAGLE.app/Contents/MacOS/EAGLE
 
 
 GERB_O = $(BRD_SRCS:.brd=.all)

@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=R2 Old DesignItemId=CRCW06030000Z0EA New DesignItemId=CRCW04020000Z0ED
+Change Component DesignItemId : Designator=R3 Old DesignItemId=CRCW06030000Z0EA New DesignItemId=CRCW04020000Z0ED
+Change Component DesignItemId : Designator=R4 Old DesignItemId=CRCW06030000Z0EA New DesignItemId=CRCW04020000Z0ED
+Change Component Footprint: Designator=R2 Old Footprint=0603R-generic New Footprint=RESC1005X04N
+Change Component Footprint: Designator=R3 Old Footprint=0603R-generic New Footprint=RESC1005X04N
+Change Component Footprint: Designator=R4 Old Footprint=0603R-generic New Footprint=RESC1005X04N

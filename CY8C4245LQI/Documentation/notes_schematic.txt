@@ -1,0 +1,4 @@
+capsense design guide
+2.2nF for Cmod or c_mod pin required for capsense
+10000pf/10nF for Csh_tank required for shielded
+

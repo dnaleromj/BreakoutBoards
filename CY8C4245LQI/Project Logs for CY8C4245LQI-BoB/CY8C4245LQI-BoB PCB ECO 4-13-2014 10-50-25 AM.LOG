@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=VCC Pin=C3-2
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C0603C105K8RACTU New DesignItemId=C0402C105K8PACTU
+Change Component DesignItemId : Designator=C3 Old DesignItemId=C0603C105K8RACTU New DesignItemId=C0402C105K8PACTU
+Change Component Footprint: Designator=C1 Old Footprint=CAPC1608X09N New Footprint=CAPC1005X06N
+Change Component Footprint: Designator=C3 Old Footprint=CAPC1608X09N New Footprint=CAPC1005X06N
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2

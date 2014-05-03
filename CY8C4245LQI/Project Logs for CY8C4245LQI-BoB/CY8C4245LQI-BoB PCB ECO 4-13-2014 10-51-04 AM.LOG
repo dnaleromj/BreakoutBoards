@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Change Component DesignItemId : Designator=C5 Old DesignItemId=C0603C105K8RACTU New DesignItemId=C0402C105K8PACTU
+Change Component Footprint: Designator=C5 Old Footprint=CAPC1608X09N New Footprint=CAPC1005X06N
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=U1-31
+Added Net: Name=NetC5_1

@@ -1,0 +1,10 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=CY8C4245LQI\CY8C4245LQI-BoB.PrjPcb
+[Project2]
+ProjectPath=..\..\Dropbox\altium\libraries\JCM-IC.LibPkg
+[Project3]
+ProjectPath=\\vmware-host\Shared Folders\Projects\BreakoutBoards\atxmega32a4u\pcb\converted\Imported xmega32A4U.PrjPcb\xmega32A4U.PrjPcb
+[Project4]
+ProjectPath=C:\Users\Public\Documents\Altium\tmp\Atmel Microcontroller 8-16-Bit AVR XMEGA\Atmel Microcontroller 8-16-Bit AVR XMEGA.LibPkg

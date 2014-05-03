@@ -1,0 +1,8 @@
+Added Component: Designator=Cmod(CAPC1005X06N)
+Added Component: Designator=Csh_tank(CAPC1005X06N)
+Added Pin To Net: NetName=P4_2 Pin=Cmod-1
+Added Pin To Net: NetName=GND Pin=Cmod-2
+Added Pin To Net: NetName=P4_3 Pin=Csh_tank-1
+Added Pin To Net: NetName=GND Pin=Csh_tank-2
+Added Member To Class: ClassName=CY8C4245LQI-BoB Member=Component Cmod 2200pF
+Added Member To Class: ClassName=CY8C4245LQI-BoB Member=Component Csh_tank 10000pF
